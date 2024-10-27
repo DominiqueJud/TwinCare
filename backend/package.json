@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "twinCare Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.fhnw.ch/dth/2024/twincare"
+  },
+  "author": "dominique jud",
+  "license": "ISC",
+  "dependencies": {
+    "backend": "file:",
+    "bcrypt": "^5.1.1",
+    "csv-parser": "^3.0.0",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.4",
+    "sequelize-cli": "^6.6.2",
+    "sqlite3": "^5.1.7"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "c16d157ce7480af3e43f2e7d65520ad3",
+    "database": "twinCareDb",
+    "host": "monkeydokku.com",
+    "dialect": "postgresql",
+    "port":"26637"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
