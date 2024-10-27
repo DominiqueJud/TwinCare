@@ -5,7 +5,7 @@ userRouter.get('/', async (request,response)=>{
     const users= await User.findAll({
         attributes:['username']
     })
-    response.json(users).send()
+    response.json(users)
 })
 
 userRouter.post('/',async (request,response)=>{
